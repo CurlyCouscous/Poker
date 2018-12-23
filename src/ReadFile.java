@@ -5,7 +5,7 @@ public class ReadFile {
 
     //    FileReader filereader = new FileReader("D:\\Projects\\java\\euler\\Poker\\src\\poker.txt");
     //    BufferedReader bufferreader = new BufferedReader(filereader);
-    Scanner myScanner = new Scanner(new File("C:\\poker.txt" ));
+    Scanner myScanner = new Scanner(new File("/home/patrycja/Projects/Java/Poker/src/poker.txt" ));
 
 
     public Player[][] fileread() throws IOException {
